@@ -3,7 +3,7 @@ from tensorflow.keras.models import load_model
 import numpy as np
 
 # Cargar el modelo entrenado
-modelo = load_model("modelo_emociones.h5")
+modelo = load_model("modelos entrenados/modelo_emociones_optimizado.h5")
 emociones = ["Ira", "Asco", "Miedo", "Felicidad", "Tristeza", "Sorpresa", "Neutral"]
 
 # Cargar el clasificador de rostros de OpenCV
